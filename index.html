@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOM Interaction Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="mainHeading">Bonny Websites</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamicText">Click the button to change this text.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="colorText">Click the button to change this color.</p>
+      <button onclick="changeColor()">Change Color</button>
+    </section>
+
+    <section>
+      <div id="itemContainer">
+        <p>Item List:</p>
+        <ul id="itemList">
+          <li>Item 1</li>
+        </ul>
+      </div>
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="removeItem()">Remove Item</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bonny Websites</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
